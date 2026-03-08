@@ -1,0 +1,54 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+table {
+  border-style: solid; 
+  border-color: rgb(145, 21, 161); 
+  border-collapse: collapse;
+}
+thead {
+  background-color: rgb(148, 11, 114);
+}
+tr, th {
+  padding: 10px; 
+  border-color: rgb(145, 21, 161); 
+}
+
+td {
+  padding: 5px; 
+  border-style: dotted; 
+  border-color: rgb(145, 21, 161); 
+  background-color: rgb(141, 66, 151); 
+}
+
+body {
+  font-family: fantasy;
+  background-color: rgb(143, 61, 182);
+  color: rgb(218, 157, 67);
+  margin: 150px;
+  padding: 25px;
+}
+
+input, select {
+  font-family: monospace;
+  background-color: rgb(134, 18, 105);
+  margin: 10px;
+  align-self: normal;
+}
+
+#navLink {
+  margin: 15px;
+  padding: 10px;
+  font-size: 20px;
+  border-style: solid;
+  background-color: rgb(90, 23, 121);
+  color: rgb(218, 157, 67);
+}
+
+#addLink {
+  color: rgb(218, 157, 67);
+}
